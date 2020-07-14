@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\SnakeKnows.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="LiteDB" Version="5.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pages\SnakeKnows.png" />
   </ItemGroup>
 
 </Project>
